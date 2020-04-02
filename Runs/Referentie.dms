@@ -29,7 +29,7 @@ container Referentie
 		attribute<string>          Name  := id(.) == 0b ? 'StartJaar' : 'R' + Label; 
 	}
 	
-	container Invoer
+	container Invoer: url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#5_Invoer"
 	{
 		// Gemeentes als selectie: 'NL' or a set of municipality codes, 
 		parameter<string> StudieGebied: ['NL'];
@@ -49,13 +49,13 @@ container Referentie
 		
 		#include <%projDir%/model/EnergiePrijzen.dms>
 
-		container DefaultInstellingen
+		container DefaultInstellingen: url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#5.4_Defaultinstellingen"
 		{
 			#include <%projDir%/Runs/DefaultSettings/Basis.dms>
 			#include <%projDir%/Runs/DefaultSettings/Toekomst.dms>
 		}
 		
-		container SpecifiekeInstellingen := DefaultInstellingen/Basis
+		container SpecifiekeInstellingen := DefaultInstellingen/Basis, url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#5.5_Specifiekeinstellingen"
 		{
 			parameter<string> prijzenbron := '20190909_Energieprijzen_KEV2019', Descr = "Energieprijzen in het basispad van de Klimaat en Energie Verkenning 2019 (PBL)";
 			parameter<bool> HasStartingArcSet := true;

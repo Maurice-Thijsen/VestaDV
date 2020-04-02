@@ -4,7 +4,7 @@
 //                                                                                      //
 //////////////////////////////////////////////////////////////////////////////////////////
 
-container Model: IntegrityCheck = "GeoDmsVersion() >= 7.181", using = "Invoer"
+container Model: IntegrityCheck = "GeoDmsVersion() >= 7.181", using = "Invoer", url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#6_Methode"
 {
 	#include <CalculationSchemes.dms>
 	container ReportingMetaData

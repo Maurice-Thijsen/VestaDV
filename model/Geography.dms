@@ -12,7 +12,7 @@
 //                                                                                      //
 // ///////////////////////////////////////////////////////////////////////////////////////
 
-container Geography: Using = "Units", IsHidden = "True"
+container Geography: Using = "Units", IsHidden = "True", url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#4.1_Geography"
 {
 	unit<dpoint> rdc_meter_base : DialogData = "ngr_layer"
 	,	Format   = "EPSG:28992"

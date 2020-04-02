@@ -8,7 +8,7 @@ container Resultaten :=
 	for_each_ne(Classifications/RekenStap/Name, 
 		'Model/CalculationSchemes/Resultaten(' + quote(Classifications/RekenStap/Name) + ')'
 	)
-	, using = "Model"
+	, using = "Model", url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#8.2_Resultaten"
 {
 	container ProductiePerBron := 
 		for_each_nedv(Classifications/RekenStap/name

@@ -11,4 +11,4 @@ container TussenResultaten :=
 			 + quote(Classifications/RekenStap/Name) + ','
 			 + MakeDefined(Classifications/RekenStap/Name[ID(Classifications/RekenStap)-1b] + '/StateNaAllocatie','BeginSituatie')
 		+')'
-	);
+	), url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#8.1_TussenResultaten" ;
