@@ -4,7 +4,7 @@
 //                                                                                      //
 //////////////////////////////////////////////////////////////////////////////////////////
 
-container CalculationSchemes: Using = "Units;Geography"
+container CalculationSchemes: Using = "Units;Geography", url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#7_Energie_en_rentabiliteit"
 {
 	#include <EnergieKengetallenImport.dms>
 

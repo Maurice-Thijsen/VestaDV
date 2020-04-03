@@ -14,7 +14,7 @@ container Toekomst
 {
 	container Stap_1 := Basis, using = "Units"
 	{
-		container RuimtelijkeVraag := Basis/RuimtelijkeVraag
+		container RuimtelijkeVraag := Basis/RuimtelijkeVraag, url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#6.3_Gebouwmaatregelen" 
 		{
 			container Lokaal := Basis/RuimtelijkeVraag/Lokaal
 			{
@@ -63,7 +63,7 @@ container Toekomst
 			}
 		}
 	
-		container Voorkeuren := Basis/Voorkeuren
+		container Voorkeuren := Basis/Voorkeuren, url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#6.4_Gebiedsmaatregelen"
 		{
 			container GebiedsOpties
 			{
@@ -92,7 +92,7 @@ container Toekomst
 	
 	container Stap_2 := Basis, using = "Units"
 	{
-		container RuimtelijkeVraag := Basis/RuimtelijkeVraag
+		container RuimtelijkeVraag := Basis/RuimtelijkeVraag, url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#6.3_Gebouwmaatregelen" 
 		{
 			container Lokaal := Basis/RuimtelijkeVraag/Lokaal
 			{
@@ -141,7 +141,7 @@ container Toekomst
 			}
 		}
 	
-		container Voorkeuren := Basis/Voorkeuren
+		container Voorkeuren := Basis/Voorkeuren, url = "%projdir%/doc/pbl-2019-ce-delft-functioneel-ontwerp-vesta-4.0_4085.pdf#6.4_Gebiedsmaatregelen"
 		{
 			container GebiedsOpties
 			{
